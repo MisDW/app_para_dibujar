@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+ <title>Sample HTML5 File</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body onload="pageLoaded();">
+    <div class="content_page">
+        <div class="content_app">
+            <div class="content_title">
+                <div class="author">
+                    <a href="https://www.youtube.com/channel/UCpQnnucUuBmbKoRePeIsVBA">@YoSoy_Programador</a>
+                    <input type="button" value="Download" class="btn_restart" id="btn_download">
+                </div>
+            </div>
+            <canvas width="400" height="400" id="testcanvas">.</canvas>
+            <div class="controls">
+                <div class="inputs">
+                    <label class="size_pencil">Size</label>
+                    <input type="range" name="size" id="size" maxlength="100" minlength="1">
+                </div>
+                <div class="inputs">
+                    <label class="color_pencil">Color</label>
+                    <input type="color" name="color" id="color">
+                </div>
+                <div class="inputs">
+                    <input type="button" name="btn_restart" id="btn_restart" class="btn_restart" value="Limpiar">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+ </body>
+</html>
